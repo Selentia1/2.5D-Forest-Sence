@@ -1,0 +1,741 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.40f1c1 (0bae6c114c78) revision 765548'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16115 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/git仓库/2.5D-Forest-Sence
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60550
+Successfully changed project path to: D:/git仓库/2.5D-Forest-Sence
+D:/git仓库/2.5D-Forest-Sence
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28288]  Target information:
+
+Player connection [28288]  * "[IP] 192.168.71.118 [Port] 0 [Flags] 2 [Guid] 2687229238 [EditorId] 2687229238 [Version] 1048832 [Id] WindowsEditor(7,huang) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 11.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1c1 (0bae6c114c78)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/git仓库/2.5D-Forest-Sence/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.2892
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016127 seconds.
+- Loaded All Assemblies, in  0.438 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 752ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.595 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1223ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (52.4 KB). Loaded Objects now: 1970.
+Memory consumption went from 83.3 MB to 83.3 MB.
+Total: 3.832600 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.055000 ms MarkObjects: 3.381500 ms  DeleteObjects: 0.131800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370693.409853 seconds.
+  path: Assets/Tile/Source/tileset-sliced_1.asset
+  artifactKey: Guid(8d73ce52504603c4188a09f4b2e3cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_1.asset using Guid(8d73ce52504603c4188a09f4b2e3cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cacea0553fbc6b8cfe008a2b9b96a3aa') in 0.089378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tile/Source/tileset-sliced_44.asset
+  artifactKey: Guid(f463b73e71d64e044923f3848afdfe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_44.asset using Guid(f463b73e71d64e044923f3848afdfe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a8765d3d621a532d54adc2e5968674b') in 0.006282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tile/Source/tileset-sliced_21.asset
+  artifactKey: Guid(603438381daebd64f84a37aa938c830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_21.asset using Guid(603438381daebd64f84a37aa938c830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f5896f251f0217db74f1a89ecf39aa7') in 0.005472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile/Source/tileset-sliced_23.asset
+  artifactKey: Guid(b2c53d758c54ed94e900462c8c81088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_23.asset using Guid(b2c53d758c54ed94e900462c8c81088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '703442da22fc5061791824d5adb3c081') in 0.005578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile/Source/tileset-sliced_49.asset
+  artifactKey: Guid(329784aeb49cfbd42abc3d149c8aba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_49.asset using Guid(329784aeb49cfbd42abc3d149c8aba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbea5103a04629d13ff7e21e8b118124') in 0.006073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile/Source/tileset-sliced_57.asset
+  artifactKey: Guid(84f7987f1f674a34ba043238cd69a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_57.asset using Guid(84f7987f1f674a34ba043238cd69a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '018835499eb5ccfca750cc7ebaa2248d') in 0.009891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile/Source/tileset-sliced_3.asset
+  artifactKey: Guid(3d9b407536732a24799b173200783cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_3.asset using Guid(3d9b407536732a24799b173200783cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd152358c48df4b87f5d67c103fd6f162') in 0.006803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile/Source/tileset-sliced_48.asset
+  artifactKey: Guid(b08305a8b44627e4da11eaa34be6b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_48.asset using Guid(b08305a8b44627e4da11eaa34be6b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '085f02bcfe5816504cc476e00ee03403') in 0.008118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tile/Source/tileset-sliced_46.asset
+  artifactKey: Guid(fda04f607a9708d47a0ff4fccf75badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_46.asset using Guid(fda04f607a9708d47a0ff4fccf75badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7da9321fc9eafc45548118a3f21ae3c3') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile/Source/tileset-sliced_18.asset
+  artifactKey: Guid(23a943576802e1845a282a976165892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_18.asset using Guid(23a943576802e1845a282a976165892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6d93f87a17a6f7830dbe89070aea2a5c') in 0.011000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile/Source/tileset-sliced_24.asset
+  artifactKey: Guid(6ffc26535fb6c2d4ea849e8e8a35f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_24.asset using Guid(6ffc26535fb6c2d4ea849e8e8a35f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1009c2c755b80b305f4dd7e4d1147a09') in 0.005122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tile/Source/tileset-sliced_56.asset
+  artifactKey: Guid(075f8924a9b30ea4d94caba290f52ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_56.asset using Guid(075f8924a9b30ea4d94caba290f52ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05db1ca4918dc66cea4be723c82ad79e') in 0.011837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile/Source/tileset-sliced_10.asset
+  artifactKey: Guid(a33994b7c4e588849b1f4f4bc6d4bde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_10.asset using Guid(a33994b7c4e588849b1f4f4bc6d4bde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '075d43d5b3b6e94c22c48ebdb4634b8b') in 0.006238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile/Source/tileset-sliced_58.asset
+  artifactKey: Guid(83219325f4a192a49b4c6872fa7bb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_58.asset using Guid(83219325f4a192a49b4c6872fa7bb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5344e58a88af57ba1d00c6a5b18ac7bb') in 0.006613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tile/Source/tileset-sliced_62.asset
+  artifactKey: Guid(a0b90ace895193b41a829d3f74dbe62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_62.asset using Guid(a0b90ace895193b41a829d3f74dbe62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e463cb1d616540a45ce2dcdbf6e42e35') in 0.007149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile/Source/tileset-sliced_8.asset
+  artifactKey: Guid(33f7a30e4dfb8984f9d8f05672e2e7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_8.asset using Guid(33f7a30e4dfb8984f9d8f05672e2e7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7300a686f4cee29fbf1954012834681d') in 0.019804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tile/Source/tileset-sliced_33.asset
+  artifactKey: Guid(ca8205dc86d207a4aa6ba522e6b53d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_33.asset using Guid(ca8205dc86d207a4aa6ba522e6b53d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '260fa2136f3854ab94ca819696f7f25b') in 0.005636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tile/Source/tileset-sliced_26.asset
+  artifactKey: Guid(7952b655c243fd045838e224bc062eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_26.asset using Guid(7952b655c243fd045838e224bc062eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb98f3c200fb0b166261a7863dd05439') in 0.005459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tile/Source/tileset-sliced_50.asset
+  artifactKey: Guid(63e523709ae4f5b46b2c2313091fcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_50.asset using Guid(63e523709ae4f5b46b2c2313091fcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9759c588a406a83487826cd5b0a3a960') in 0.006566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tile/Source/tileset-sliced_27.asset
+  artifactKey: Guid(15a09f1941775f544853deb052013520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_27.asset using Guid(15a09f1941775f544853deb052013520) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e97fc32d24f1fb921a5c18046af5d84f') in 0.005907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile/Source/tileset-sliced_38.asset
+  artifactKey: Guid(52a670881bab1a24487fb7a8ff1b0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_38.asset using Guid(52a670881bab1a24487fb7a8ff1b0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '403b8288ebc8d6075e1edba7e0f2fb55') in 0.005643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tile/Source/tileset-sliced_35.asset
+  artifactKey: Guid(f8168eb2f2013a24e8502ebddc97e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_35.asset using Guid(f8168eb2f2013a24e8502ebddc97e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9578c0227089b439de72870c1e1c8878') in 0.005476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile
+  artifactKey: Guid(bfa6f36952b8bc443ae9664ed22c1c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile using Guid(bfa6f36952b8bc443ae9664ed22c1c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02ed941c2574256505491208e4e25167') in 0.000773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tile/Source/tileset-sliced_25.asset
+  artifactKey: Guid(42e9e00500c2e2241bebd6eb889a6a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_25.asset using Guid(42e9e00500c2e2241bebd6eb889a6a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3c7a5b892e79f4afdd58470e2ee418a') in 0.005844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tile/Source/tileset-sliced_12.asset
+  artifactKey: Guid(0ffda8ae74582144cb6d02a93135bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_12.asset using Guid(0ffda8ae74582144cb6d02a93135bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4445cbbe2b30f25a445507d9906ddf37') in 0.005975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile/Source/tileset-sliced_31.asset
+  artifactKey: Guid(c486e4004b2d7784f87e6179341f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_31.asset using Guid(c486e4004b2d7784f87e6179341f14d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a51dcd2b4bf6ca0f10e0013b5aaf5d79') in 0.005750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tile/Source/tileset-sliced_5.asset
+  artifactKey: Guid(3435e6b917f00b542af6a8120e884ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_5.asset using Guid(3435e6b917f00b542af6a8120e884ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3facf9889f066095ea18db046617c3a8') in 0.006921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile/Source/tileset-sliced_19.asset
+  artifactKey: Guid(5a5330c5204764e49b4f6c3180f2e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_19.asset using Guid(5a5330c5204764e49b4f6c3180f2e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a9eefea17c500d6d4d7a2a05f872883f') in 0.006646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile/Source/tileset-sliced_20.asset
+  artifactKey: Guid(6120db52655f2444c8463f38c17ccb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_20.asset using Guid(6120db52655f2444c8463f38c17ccb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39fd8689c20cca693458d88316264ced') in 0.005979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile/Source/tileset-sliced_40.asset
+  artifactKey: Guid(f3d5646043430f4458c0f22c400d2934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_40.asset using Guid(f3d5646043430f4458c0f22c400d2934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8badfad0221df893b0fe5de00ef21afc') in 0.007265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tile/Source/tileset-sliced_51.asset
+  artifactKey: Guid(5d237b99ac4feeb4d9a8344731137472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_51.asset using Guid(5d237b99ac4feeb4d9a8344731137472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd8619876efa282cf8d0d7a6b7c4139f') in 0.007020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Tile/Source/tileset-sliced_47.asset
+  artifactKey: Guid(86b9f4f6b78181447acd86fc0b9dc4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_47.asset using Guid(86b9f4f6b78181447acd86fc0b9dc4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ae4969273eed1798bc13db3b50a1c1f') in 0.006981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tile/Source/tileset-sliced_2.asset
+  artifactKey: Guid(54a68cbb1277d9545a53cdb621cff2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_2.asset using Guid(54a68cbb1277d9545a53cdb621cff2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '583f9ab52538baecac199e73c16c4d6f') in 0.012638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile/Source/tileset-sliced_52.asset
+  artifactKey: Guid(408f69c87aeda6e4887bc321a9b6290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_52.asset using Guid(408f69c87aeda6e4887bc321a9b6290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dcf079a8035413da479cdfedd7c2e3c9') in 0.005262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile/Source/tileset-sliced_59.asset
+  artifactKey: Guid(dc70f6f491e1ff342b331b0ae5cb4dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_59.asset using Guid(dc70f6f491e1ff342b331b0ae5cb4dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86b8bbe7a37f0add857de4fd7f11e16c') in 0.005766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tile/Source/tileset-sliced_36.asset
+  artifactKey: Guid(e9a8a921c8e1a2d4392d66b3a203e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_36.asset using Guid(e9a8a921c8e1a2d4392d66b3a203e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3349928c4633b70900310524c95e3ce2') in 0.005970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tile/Source/tileset-sliced_22.asset
+  artifactKey: Guid(10525827eee66ab4fb821391fc41249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_22.asset using Guid(10525827eee66ab4fb821391fc41249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ebe9cfab0aa3999026e0fc5987873c9') in 0.005863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tile/Palette
+  artifactKey: Guid(191c7a890f699904bac504f4741d42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Palette using Guid(191c7a890f699904bac504f4741d42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68272b2801eff3b4964d8a66926c4b73') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tile/Source/tileset-sliced_9.asset
+  artifactKey: Guid(50e35eb67d1d73b45adda6ae9c2957be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_9.asset using Guid(50e35eb67d1d73b45adda6ae9c2957be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b1efec5b119a36c0a5421afbdd6a716a') in 0.007657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tile/Source/tileset-sliced_60.asset
+  artifactKey: Guid(e14fa4c16bc8d7b40a0a03af40aacd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_60.asset using Guid(e14fa4c16bc8d7b40a0a03af40aacd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd751644420e1e91caa474aa7703b9a0') in 0.005787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tile/Source/tileset-sliced_45.asset
+  artifactKey: Guid(101d899b09e6a1046868302438fb2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_45.asset using Guid(101d899b09e6a1046868302438fb2280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e2fd0d9663e5e98fe7618b3edc72c27') in 0.033097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tile/Source/tileset-sliced_61.asset
+  artifactKey: Guid(8c43249f608166949a2dce2be8ddf524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_61.asset using Guid(8c43249f608166949a2dce2be8ddf524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4ab94041ca2f6ad38bb9fb02b497b41') in 0.007554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tile/Source/tileset-sliced_0.asset
+  artifactKey: Guid(9a30a5a5ade63f34bbdc6997e8c1a9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_0.asset using Guid(9a30a5a5ade63f34bbdc6997e8c1a9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '463190871185e286c7d661f598cd2a04') in 0.006854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tile/Source/tileset-sliced_64.asset
+  artifactKey: Guid(ee1f76a6cab3ba544b5ed80036a13749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_64.asset using Guid(ee1f76a6cab3ba544b5ed80036a13749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72876d245c8b4ea15c3a97eb7bd48612') in 0.006979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tile/Source/tileset-sliced_41.asset
+  artifactKey: Guid(50aedd068a754704dbcf0ad8dbdef6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_41.asset using Guid(50aedd068a754704dbcf0ad8dbdef6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ced84c74cf064c2c2fa3fb880a5e1cb') in 0.010042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tile/Source/tileset-sliced_14.asset
+  artifactKey: Guid(ef0a4e8fc0030294fb06fa797e43994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_14.asset using Guid(ef0a4e8fc0030294fb06fa797e43994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c27a674a036b71238a0460b4ab51f0f8') in 0.008339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tile/Source/tileset-sliced_16.asset
+  artifactKey: Guid(8facf989af9fe554f9499e6aba7e088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_16.asset using Guid(8facf989af9fe554f9499e6aba7e088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b4b1b6d2f9d23aa91f899b6364968cb') in 0.009590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile/Source/tileset-sliced_4.asset
+  artifactKey: Guid(f8b6eceddcfb5da40b8da5e9c5e1d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_4.asset using Guid(f8b6eceddcfb5da40b8da5e9c5e1d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b8e4aeafa65ee1fae73bc1926981598') in 0.006502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile/Source/tileset-sliced_7.asset
+  artifactKey: Guid(43a97a916e564694dbf96cc09f7e6a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_7.asset using Guid(43a97a916e564694dbf96cc09f7e6a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '019f4eb8d496de49d066a7c559eac1bf') in 0.008309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tile/Source/tileset-sliced_28.asset
+  artifactKey: Guid(602ad6304b2c7f9428b94a53770ae203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_28.asset using Guid(602ad6304b2c7f9428b94a53770ae203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33ed6ef3da1baeb4c075c130ab43f64e') in 0.006559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Tile/Source/tileset-sliced_42.asset
+  artifactKey: Guid(77dea8ebb759a08489dc3b86349a2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_42.asset using Guid(77dea8ebb759a08489dc3b86349a2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4013c6ea8ea57f1b75645977737bad27') in 0.007527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tile/Source/tileset-sliced_15.asset
+  artifactKey: Guid(2fd960bcc82615e47b335a5d3e56d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_15.asset using Guid(2fd960bcc82615e47b335a5d3e56d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '945bb2c25bb1e286bb826c96ce4c2fad') in 0.006448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tile/Source/tileset-sliced_63.asset
+  artifactKey: Guid(6bb56c5c3c3c1d0478e5f1cb9a4d7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_63.asset using Guid(6bb56c5c3c3c1d0478e5f1cb9a4d7ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '573f6c3bc10957fafa36f820112f58fd') in 0.006216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tile/Source/tileset-sliced_43.asset
+  artifactKey: Guid(18f440cd20dff8947813b49794553efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_43.asset using Guid(18f440cd20dff8947813b49794553efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e429905804929de40607d8b34b106991') in 0.006384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tile/Source/tileset-sliced_65.asset
+  artifactKey: Guid(1a5a28e8eb42db94eb9784561e544207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Source/tileset-sliced_65.asset using Guid(1a5a28e8eb42db94eb9784561e544207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc1cd6879989a86f860ceec769f51a5b') in 0.006791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 281.441441 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png using Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '822977ee4b958730daa63d46bab84d53') in 0.516772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 402
+========================================================================
+Received Import Request.
+  Time since last request: 0.674832 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png
+  artifactKey: Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png using Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4096a862b9f24f3a5c654b10bcf56b59') in 0.006263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002285 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png
+  artifactKey: Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png using Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02bc75fb0af834e918c388d3355ebbe5') in 0.017483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png
+  artifactKey: Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png using Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4515145c3ba6eeff2d0aa441b1a56b53') in 0.011767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png
+  artifactKey: Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png using Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91f1e5a4cf5b33aa4ce5ed39330e34ce') in 0.009223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.210094 seconds.
+  path: Assets/Tile/Palette/Palette.prefab
+  artifactKey: Guid(630271e1e14e8ca42b5032db878a04fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Palette/Palette.prefab using Guid(630271e1e14e8ca42b5032db878a04fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ca2860a9838e493d2c35824fc6b81f0') in 0.203475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 811
